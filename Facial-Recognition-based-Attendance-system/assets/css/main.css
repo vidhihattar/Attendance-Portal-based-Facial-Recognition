@@ -247,6 +247,10 @@ path {
 .resp-img{
   padding: 10px 10px;
 }
+
+.form-cont{
+  margin-left: 0;
+}
 /* Media query for small screens */
 @media screen and (max-width: 600px) {
   .wrapper{
@@ -312,6 +316,16 @@ path {
   }
   .resp-sb{
     margin-top: 200px;
+  }
+  .illus {
+    display: none;
+  }
+
+  .form-cont{
+    width: 100vw;
+    display: block;
+    margin: 10px;
+    margin-left: 10 px !important;
   }
 
 }

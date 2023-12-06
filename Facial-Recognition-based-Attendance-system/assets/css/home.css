@@ -75,7 +75,7 @@ button:hover {
   background: #11cd9b;
 }
 .login {
-  height: 540px;
+  height: 700px;
   background: white;
   border-radius: 60% / 10%;
   transform: translateY(-125px);
@@ -87,7 +87,7 @@ button:hover {
 }
 
 #chk:checked ~ .login {
-  transform: translateY(-570px);
+  transform: translateY(-680px);
 }
 #chk:checked ~ .login label {
   transform: scale(1);
@@ -125,4 +125,8 @@ button:hover {
 .admin-a a {
   color: white;
   text-decoration: none;
+}
+
+.img-illus img{
+  height: 400px;
 }
